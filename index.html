@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 
-<html lamg="en">
+<html>
     <head>
-         <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Protfolio of Devmlaya De</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Protfolio of Devmlaya De</title>
+
     </head>
-    
     <body>
+        <div class="nav">
+            <div id="nav1" class="nav-items"  >Home</div>
+            <div id="nav2" class="nav-items">Education</div>
+            <div id="nav3" class="nav-items">Skill</div>
+            <div id="nav4" class="nav-items">Project</div>
+            <div id="nav5" class="nav-items">About me</div>
+            <div id="nav6" class="nav-items">Contact me</div> 
+        </div>
         <div class="container">
         <div id="main">
              <div class="image">
@@ -18,7 +26,7 @@
              </div>
              <div class="profile-name">
                 <h1 id="heading">My Name is<br><span id="name">DEVMALYA DE</span>,<br>Web Developer</h1>
-                <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
+                <button value="Download" id="down" class="btn"><i class="fa fa-download"></i><a href="https://bit.ly/3ArN0v8"> Download Resume </a></button>
 
              </div>
           </div>
@@ -65,48 +73,51 @@
                     <p>This one is my first peoject.<br>A simple Html and CSS project. <br>
                     In honor of <span class="highlited">Captain Vikram Batra</span><br>
                     Hostpage link is in below:-</p>
-                    <a href="https://devmaly.github.io/Tribute2/" class="hover2">Tribute</a>                        
+                    <a href="https://luminous-cannoli-9c1568.netlify.app/" class="hover2">Tribute</a>                        
                 </div>
                 <div class="project2">
                     <h2>A Product Website</h2>
                     <p>This one is a product website of <span class="highlited">Predetor laptop</span><br>
                     constructed by Html, CSS and little bit of JavaScript<br>
                     Hostpage link is in below:-</p>
-                    <a href="https://devmaly.github.io/Product-website/" class="hover2">Product</a>
+                    <a href="https://predetor-helios-300.netlify.app/" class="hover2">Product</a>
                 </div>
                 <div class="project3">
                     <h2>Netflix Home Page Demo</h2>
                     <p>In this project I try to replicate,<br>
                     <span class="highlited">Netflix Home page</span> with the help of<br>
                     Html and CSS. Hostpage link is in below:-</p>
-                    <a href="https://devmaly.github.io/netflix-demo/" class="hover2">Demo</a>
+                    <a href="https://netflix-home-page-demo.netlify.app/" class="hover2">Demo</a>
+                </div>
+                <div class="project4">
+                    <h2>Word Highlighter</h2>
+                    <p>This is a <span class="highlited">Javascript</span> project <br> to highlight your desier words from a content :-</p>
+                    <a href="https://luminous-cannoli-9c1568.netlify.app/" class="hover2">Highliter</a>
                 </div>
             </div>
         </div>
         <div class="about-section">
             <div class="about-heading"><h2>About Me</h2></div>
             <div class="about-details">
-               <div> <p>I studied Electrical Engineering, although it did not take my interest.<br> I was doing some online shopping, suddenly the took my interest.<br>
+                <p>I studied Electrical Engineering, although it did not take my interest.<br> I was doing some online shopping, suddenly the took my interest.<br>
                 Then I decided to be a web developer. I join a course for full-stack<br> developer in Newton School. After making some projects my confidence got boosted.<br>
                 now I want to learn more about it, to improve myself . I didn't want to stop .<br> This web development now became a part of my Life. beside this <br>
-                   I have some Hobbies .</p></div>
-              <div>  <h3>Hobbies</h3>
+                I have some Hobies .</p>
+                <h3>Hobbies</h3>
                 <ul>
                     <li>Football</li>
                     <li>Painting</li>
                     <li>Traveling</li>
                 </ul>
-                </div>
-               <div> <h3>Languages</h3>
+                <h3>Languages</h3>
                 <ul>
                     <li>Bengali</li>
                     <li>Hindi</li>
                     <li>English</li>
                 </ul>
-                </div>
             </div>
         </div>
-        <div class="contact-section">
+        <div class="contact-section" id="contact">
             <div class="contact-heading"><h2>CONTACT ME</h2></div>
             <div class="contact-details">
                 <ul>
@@ -120,6 +131,6 @@
         </div>
       
         </div>
+        <script src="index.js"></script>
     </body>
-    
 </html>
