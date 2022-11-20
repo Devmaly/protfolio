@@ -1,6 +1,26 @@
 body{
     background-color: rgb(233, 141, 141);
 }
+
+.nav{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    align-self: start;
+background-color: black;
+padding-top: 5px;
+position: fixed;
+padding-right: 50px;
+padding-bottom: 5px;
+}
+.nav-items{
+    justify-items: center;
+    align-items:flex-end;
+    padding-left: 100px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
 #main{
     display: flex;
     /* justify-content: space-between; */
@@ -154,8 +174,9 @@ body{
 .project-details{
     padding-right: 300px;
     align-self: center;
+    
 }
-.project1 , .project2 , .project3{
+.project1 , .project2 , .project3, .project4{
     margin: 10px;
     background-color: rgb(253, 199, 199);
     padding-left: 20px;
